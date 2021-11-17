@@ -38,4 +38,56 @@
 
 11. Aritmética multidimensional é, simplificadamente, um array que contêm outros arrays. Uma vez que um array é um vetor, aritmética multidimensional é um termo que refere-se a uma matriz. ([link para script de exemplo](https://www.minecraft.net/ko-kr))
 
+12. ```python
+    arr = np.array([[2, 4], [6, 9]])
+    # Calcula o exponencialᵃ de cada elemento. np.expᵇ
+    print(repr(np.exp(arr)))
+    # Calcula 2**p (2^p), sendo p cada elemento do array. np.exp2ᶜ
+    print(repr(np.exp2(arr)))
     
+    arr2 = np.array([[1, 10], [np.e, np.pi]])
+    # Calcula o logaritmoᵈ natural de cada elemento. np.logᵉ
+    print(repr(np.log(arr2)))
+    # Calcula o logaritmo de base 10 de cada elemento. np.log10ᶠ
+    print(repr(np.log10(arr2)))
+    # Eleva o primeiro parâmetro à todos os números do segundo parâmetro. np.powerᵍ
+    print(repr(np.power(3, arr2)))
+    # Eleva todos os elementos ao quadrado.
+    print(repr(arr**2))
+    ```
+
+    Documentação:
+
+    1. https://en.wikipedia.org/wiki/Exponential_function
+    2. https://numpy.org/doc/stable/reference/generated/numpy.exp.html
+    3. https://numpy.org/doc/stable/reference/generated/numpy.exp2.html
+    4. https://en.wikipedia.org/wiki/Logarithm
+    5. https://numpy.org/doc/stable/reference/generated/numpy.log.html
+    6. https://numpy.org/doc/stable/reference/generated/numpy.log10.html
+    7. https://numpy.org/doc/stable/reference/generated/numpy.power.html
+
+    ([link para script](https://www.minecraft.net/ko-kr))
+
+13. 
+
+14. 
+
+15. Ele apenas embaralha todo o array.
+
+    Exemplos ([link para script de exemplo](https://www.minecraft.net/ko-kr)):
+
+    ```python
+    arr = np.arange(10)
+    print(repr(np.random.shuffle(arr)))
+    # [1 7 5 2 9 4 3 6 0 8]
+    
+    arr2 = np.arange(10).reshape((3, 3))
+    print(repr(np.random.shuffle(arr2)))
+    # [ [3, 4, 5],
+    #   [6, 7, 8],
+    #	[0, 1, 2] ]
+    ```
+
+    
+
+16. 
