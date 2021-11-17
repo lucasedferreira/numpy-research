@@ -34,3 +34,8 @@
 
 9. O `np.reshape` faz o que o próprio nome diz, retorna um novo formato do array provido sem alterar seus dados. ([link para script de exemplo](https://www.minecraft.net/ko-kr))
 
+10. 
+
+11. Aritmética multidimensional é, simplificadamente, um array que contêm outros arrays. Uma vez que um array é um vetor, aritmética multidimensional é um termo que refere-se a uma matriz. ([link para script de exemplo](https://www.minecraft.net/ko-kr))
+
+    
