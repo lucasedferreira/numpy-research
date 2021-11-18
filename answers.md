@@ -40,17 +40,17 @@
 
 12. ```python
     arr = np.array([[2, 4], [6, 9]])
-    # Calcula o exponencialᵃ de cada elemento. np.expᵇ
+    # Calcula o exponencial¹ de cada elemento. np.exp²
     print(repr(np.exp(arr)))
-    # Calcula 2**p (2^p), sendo p cada elemento do array. np.exp2ᶜ
+    # Calcula 2**p (2^p), sendo p cada elemento do array. np.exp2³
     print(repr(np.exp2(arr)))
     
     arr2 = np.array([[1, 10], [np.e, np.pi]])
-    # Calcula o logaritmoᵈ natural de cada elemento. np.logᵉ
+    # Calcula o logaritmo⁴ natural de cada elemento. np.log⁵
     print(repr(np.log(arr2)))
-    # Calcula o logaritmo de base 10 de cada elemento. np.log10ᶠ
+    # Calcula o logaritmo de base 10 de cada elemento. np.log10⁶
     print(repr(np.log10(arr2)))
-    # Eleva o primeiro parâmetro à todos os números do segundo parâmetro. np.powerᵍ
+    # Eleva o primeiro parâmetro à todos os números do segundo parâmetro. np.power⁷
     print(repr(np.power(3, arr2)))
     # Eleva todos os elementos ao quadrado.
     print(repr(arr**2))
@@ -70,7 +70,11 @@
 
 13. 
 
-14. 
+14. A grosso modo, o `np.random.seed` torna previsíveis os números aleatórios. Ou seja, você provê uma seed para gerar um pseudo-número "aleatório".
+
+    Um exemplo de usabilidade é quando você precisa depurar um código que utiliza números aleatórios, então você define uma seed para que o código faça sempre a mesma coisa.
+
+    Segue o link de um artigo que explica e exemplifica muito bem o uso do `np.random.seed`: https://www.sharpsightlabs.com/blog/numpy-random-seed/
 
 15. Ele apenas embaralha todo o array.
 
@@ -91,3 +95,10 @@
     
 
 16. 
+
+17. 
+
+18. Basta usar o [`np.concatenate`](https://numpy.org/devdocs/reference/generated/numpy.concatenate.html). ([link para script de exemplo](https://www.minecraft.net/ko-kr))
+
+16. O [`np.save`](https://numpy.org/doc/stable/reference/generated/numpy.save.html) salva o array num arquivo binário, no formato `.npy`. O [`np.load`](https://numpy.org/doc/stable/reference/generated/numpy.load.html) faz o contrário, ele carrega os arrays contidos num arquivo `.npy` ou `.npz`.
+
