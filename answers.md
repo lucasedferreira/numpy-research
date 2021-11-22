@@ -23,7 +23,7 @@
     # OUTPUT array([1, 2, 2])
     ```
 
-6. 
+6. Quando queremos atribuir a uma variável o valor equivalente a Not a Number (NaN).
 
 7. 
 
