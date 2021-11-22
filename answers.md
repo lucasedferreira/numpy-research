@@ -1,8 +1,8 @@
 1. 
 
-2. Criará um array referenciado por um [código de caracteres](https://numpy.org/doc/stable/user/basics.types.html#array-types-and-conversions-between-types), útil principalmente para manter a compatibilidade com versões anteriores de pacotes mais antigos, como Numeric. ([link para script](https://www.minecraft.net/ko-kr))
+2. Criará um array referenciado por um [código de caracteres](https://numpy.org/doc/stable/user/basics.types.html#array-types-and-conversions-between-types), útil principalmente para manter a compatibilidade com versões anteriores de pacotes mais antigos, como Numeric. ([link para script](scripts/q2.py))
 
-3. O anterior criará um array com três números, este fará um array contendo dois arrays, com três números cada. ([link para script](https://www.minecraft.net/ko-kr))
+3. O anterior criará um array com três números, este fará um array contendo dois arrays, com três números cada. ([link para script](scripts/q3.py))
 
 4. Quando um array é referenciado a outro, eles ficam "ligados", ou seja, quando um deles é alterado, o outro também é. Já o copy, não possui tal ligação, então se qualquer um for editado, não afetará o outro.
 
