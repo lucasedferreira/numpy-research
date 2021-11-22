@@ -49,7 +49,12 @@
 
 9.  O `np.reshape` faz o que o próprio nome diz, retorna um novo formato do array provido sem alterar seus dados. ([link para script de exemplo](scripts/a9.py))
 
-10. 
+10. - **np.zeros:** é uma rotina de criação de array e retorna um novo array de zeros com o formato recebido no parâmetro.
+    - **np.ones:** retorna um novo array de uns com o formato recebido no parâmetro.
+    - **np.zeros_like:** é uma rotina de criação de array e retorna um novo array de zeros com o mesmo formato do array recebido como parâmetro.
+    - **np.ones_like:** é uma rotina de criação de array e retorna um novo array de uns com o mesmo formato do array recebido como parâmetro.
+    - **np.transpose:** é uma rotina de manipulação de arrays e reverte ou permuta os eixos de um array e asism retorna o array modificado. 
+        [Link para script de exemplo](/scripts/a10.py)
 
 11. Aritmética multidimensional é, simplificadamente, um array que contêm outros arrays. Uma vez que um array é um vetor, aritmética multidimensional é um termo que refere-se a uma matriz. ([link para script de exemplo](scripts/a11.py))
 
