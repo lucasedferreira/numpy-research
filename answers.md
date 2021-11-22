@@ -6,7 +6,7 @@
  - Transformadas de Fourier básicas
  - Ferramentas sofisticadas para geração de números aleatórios.
 
-Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a customização do comportamento (por exemplo, dos operadores típicos de adição, subtração, multiplicação, etc.). O módulo é implementado em linguagem C, o que dá uma grande velocidade às operações realizadas.
+    Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a customização do comportamento (por exemplo, dos operadores típicos de adição, subtração, multiplicação, etc.). O módulo é implementado em linguagem C, o que dá uma grande velocidade às operações realizadas.
 
 2. Criará um array referenciado por um [código de caracteres](https://numpy.org/doc/stable/user/basics.types.html#array-types-and-conversions-between-types), útil principalmente para manter a compatibilidade com versões anteriores de pacotes mais antigos, como Numeric. ([link para script](scripts/q2.py))
 
@@ -14,7 +14,14 @@ Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a
 
 4. Quando um array é referenciado a outro, eles ficam "ligados", ou seja, quando um deles é alterado, o outro também é. Já o copy, não possui tal ligação, então se qualquer um for editado, não afetará o outro.
 
-5. 
+5. A função `astype` copia o array e molda o array para o tipo especificado como parâmetro. <br> 
+
+    ```python
+    newArray = np.array([2, 2, 2.5])
+    # OUTPUT array([1., 2., 2.5])
+    newArray.astype(int)
+    # OUTPUT array([1, 2, 2])
+    ```
 
 6. 
 
@@ -40,7 +47,7 @@ Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a
    arr = np.arange(-1.5, 4, 2)
    ```
 
-9. O `np.reshape` faz o que o próprio nome diz, retorna um novo formato do array provido sem alterar seus dados. ([link para script de exemplo](scripts/a9.py))
+9.  O `np.reshape` faz o que o próprio nome diz, retorna um novo formato do array provido sem alterar seus dados. ([link para script de exemplo](scripts/a9.py))
 
 10. 
 
@@ -108,5 +115,5 @@ Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a
 
 18. Basta usar o [`np.concatenate`](https://numpy.org/devdocs/reference/generated/numpy.concatenate.html). ([link para script de exemplo](scripts/a18.py))
 
-16. O [`np.save`](https://numpy.org/doc/stable/reference/generated/numpy.save.html) salva o array num arquivo binário, no formato `.npy`. O [`np.load`](https://numpy.org/doc/stable/reference/generated/numpy.load.html) faz o contrário, ele carrega os arrays contidos num arquivo `.npy` ou `.npz`.
+19. O [`np.save`](https://numpy.org/doc/stable/reference/generated/numpy.save.html) salva o array num arquivo binário, no formato `.npy`. O [`np.load`](https://numpy.org/doc/stable/reference/generated/numpy.load.html) faz o contrário, ele carrega os arrays contidos num arquivo `.npy` ou `.npz`.
 

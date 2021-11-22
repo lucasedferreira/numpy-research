@@ -36,8 +36,6 @@ d[0] = -11
 print('Array b: {}'.format(repr(b)))
 ```
 
-
-
 5. O que faz a função astype (dê um exemplo)
 
 6. Quando devemos usar np.nan?
