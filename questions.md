@@ -1,4 +1,4 @@
-1. O que é Numpy?
+1. O que é NumPy?
 
 2. O que fará o programa a seguir:
 
