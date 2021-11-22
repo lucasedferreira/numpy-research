@@ -88,7 +88,7 @@
 
     ([link para script](scripts/q12.py))
 
-13. 
+13. Para fazer a multiplicação de matrizes podemos utilizar a rotina de manipulação `numpy.multiply` que irá multiplicar os argumentos das matrizes. [Link para scripe de exemplo.](scripts/a13.py)
 
 14. A grosso modo, o `np.random.seed` torna previsíveis os números aleatórios. Ou seja, você provê uma seed para gerar um pseudo-número "aleatório".
 
