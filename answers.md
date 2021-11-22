@@ -25,7 +25,7 @@
 
 6. Quando queremos atribuir a uma variável o valor equivalente a Not a Number (NaN).
 
-7. 
+7. Usamos np.inf quando queremos retornar um ponto flutuante que representa o infinito positivo, já -np.inf quando queremos um ponto flutuante equivalente a infinito negativo.
 
 8. Retorna um array com números entre o invervalo provido.
 
