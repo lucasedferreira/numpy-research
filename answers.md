@@ -6,9 +6,9 @@
  - Ferramentas sofisticadas para geração de números aleatórios
 Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a customização do comportamento (por exemplo, dos operadores típicos de adição, subtração, multiplicação, etc.). O módulo é implementado em linguagem C, o que dá uma grande velocidade às operações realizadas.
 
-2. Criará um array referenciado por um [código de caracteres](https://numpy.org/doc/stable/user/basics.types.html#array-types-and-conversions-between-types), útil principalmente para manter a compatibilidade com versões anteriores de pacotes mais antigos, como Numeric. ([link para script](https://www.minecraft.net/ko-kr))
+2. Criará um array referenciado por um [código de caracteres](https://numpy.org/doc/stable/user/basics.types.html#array-types-and-conversions-between-types), útil principalmente para manter a compatibilidade com versões anteriores de pacotes mais antigos, como Numeric. ([link para script](scripts/q2.py))
 
-3. O anterior criará um array com três números, este fará um array contendo dois arrays, com três números cada. ([link para script](https://www.minecraft.net/ko-kr))
+3. O anterior criará um array com três números, este fará um array contendo dois arrays, com três números cada. ([link para script](scripts/q3.py))
 
 4. Quando um array é referenciado a outro, eles ficam "ligados", ou seja, quando um deles é alterado, o outro também é. Já o copy, não possui tal ligação, então se qualquer um for editado, não afetará o outro.
 
@@ -22,7 +22,7 @@ Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a
 
    Exemplo: `np.arange(0, 10)` é equivalente ao intervalo `[0,5)`, ou seja, o intervalo inclui o número inicial, mas exclui o final.
 
-   [Código do exercício](https://www.minecraft.net/ko-kr) com uma explicação de cada exemplo:
+   [Código do exercício](scripts/q8.py) com uma explicação de cada exemplo:
 
    ```python
    # Cria um array de números inteiros, [0, 1, 2, 3, 4]
@@ -38,11 +38,11 @@ Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a
    arr = np.arange(-1.5, 4, 2)
    ```
 
-9. O `np.reshape` faz o que o próprio nome diz, retorna um novo formato do array provido sem alterar seus dados. ([link para script de exemplo](https://www.minecraft.net/ko-kr))
+9. O `np.reshape` faz o que o próprio nome diz, retorna um novo formato do array provido sem alterar seus dados. ([link para script de exemplo](scripts/a9.py))
 
 10. 
 
-11. Aritmética multidimensional é, simplificadamente, um array que contêm outros arrays. Uma vez que um array é um vetor, aritmética multidimensional é um termo que refere-se a uma matriz. ([link para script de exemplo](https://www.minecraft.net/ko-kr))
+11. Aritmética multidimensional é, simplificadamente, um array que contêm outros arrays. Uma vez que um array é um vetor, aritmética multidimensional é um termo que refere-se a uma matriz. ([link para script de exemplo](scripts/a11.py))
 
 12. ```python
     arr = np.array([[2, 4], [6, 9]])
@@ -72,7 +72,7 @@ Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a
     6. https://numpy.org/doc/stable/reference/generated/numpy.log10.html
     7. https://numpy.org/doc/stable/reference/generated/numpy.power.html
 
-    ([link para script](https://www.minecraft.net/ko-kr))
+    ([link para script](scripts/q12.py))
 
 13. 
 
@@ -84,7 +84,7 @@ Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a
 
 15. Ele apenas embaralha todo o array.
 
-    Exemplos ([link para script de exemplo](https://www.minecraft.net/ko-kr)):
+    Exemplos ([link para script de exemplo](scripts/a15.py)):
 
     ```python
     arr = np.arange(10)
@@ -104,7 +104,7 @@ Além disso tudo, as classes criadas podem ser facilmente herdadas, permitindo a
 
 17. 
 
-18. Basta usar o [`np.concatenate`](https://numpy.org/devdocs/reference/generated/numpy.concatenate.html). ([link para script de exemplo](https://www.minecraft.net/ko-kr))
+18. Basta usar o [`np.concatenate`](https://numpy.org/devdocs/reference/generated/numpy.concatenate.html). ([link para script de exemplo](scripts/a18.py))
 
 16. O [`np.save`](https://numpy.org/doc/stable/reference/generated/numpy.save.html) salva o array num arquivo binário, no formato `.npy`. O [`np.load`](https://numpy.org/doc/stable/reference/generated/numpy.load.html) faz o contrário, ele carrega os arrays contidos num arquivo `.npy` ou `.npz`.
 
