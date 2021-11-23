@@ -112,9 +112,11 @@
     #	[0, 1, 2] ]
     ```
 
-    
+16. A distribuição normal, também conhecida como distribuição gaussiana, é uma curva simétrica em torno do seu ponto médio, apresentando assim seu famoso formato de sino.<br>
+    A distribuição normal pode ser usada para aproximar distribuições discretas de probabilidade, como por exemplo a distribuição binomial. Além disso, a distribuição normal serve também como base para a inferência estatística clássica.
 
-16. 
+
+
 
 17. 
 
