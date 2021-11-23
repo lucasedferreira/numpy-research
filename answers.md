@@ -122,3 +122,32 @@
 
 19. O [`np.save`](https://numpy.org/doc/stable/reference/generated/numpy.save.html) salva o array num arquivo binário, no formato `.npy`. O [`np.load`](https://numpy.org/doc/stable/reference/generated/numpy.load.html) faz o contrário, ele carrega os arrays contidos num arquivo `.npy` ou `.npz`.
 
+20. ```python
+    arr = np.array([[0,  72,   3],
+				[1,   3, -60],
+				[-3, -2,   4]])
+
+    # A primeira retorna o menor valor do conjundo de arrays, e a segunda o maior
+    print(arr.min())
+    print(arr.max())
+    # Retorna o menor valor de cada linha de array
+    print(repr(arr.min(axis=1)))
+    # Retorna a média dos elementos do array
+    print(np.mean(arr))
+    # Retorna a variância dos elementos do array, uma medida da propagação de uma distribuição
+    print(np.var(arr))
+    # Retorna a mediana dos elementos do array
+    print(np.median(arr))
+    
+    ```
+
+    Documentação:
+
+    1. https://numpy.org/doc/stable/reference/generated/numpy.ndarray.max.html
+    2. https://numpy.org/doc/stable/reference/generated/numpy.ndarray.min.html
+    3. https://numpy.org/doc/stable/reference/generated/numpy.mean.html
+    4. https://numpy.org/doc/stable/reference/generated/numpy.var.html
+    5. https://numpy.org/doc/stable/reference/generated/numpy.median.html
+
+    ([link para script](scripts/q20.py))
+
