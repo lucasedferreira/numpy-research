@@ -116,9 +116,19 @@
     A distribuição normal pode ser usada para aproximar distribuições discretas de probabilidade, como por exemplo a distribuição binomial. Além disso, a distribuição normal serve também como base para a inferência estatística clássica.
 
 
-
-
-17. 
+17. ```python
+    arr = np.array([[ 0,  2,  3],
+                    [ 1,  3, -6],
+                    [-3, -2,  1]])
+    # repr retorna o um valor representativo ao objeto, no caso irá retornar a string True quando o valor for igual a 3
+    print(repr(arr == 3))
+    # já aqui irá retornar a string True todo vez que o valor for maior que 0
+    print(repr(arr > 0))
+    # aqui retornará True quando o objeto for diferente de 1
+    print(repr(arr != 1))
+    # aqui retornará True quando o valor for igual a 1, o ~ inverteu a lógica
+    print(repr(~(arr != 1)))
+    ```
 
 18. Basta usar o [`np.concatenate`](https://numpy.org/devdocs/reference/generated/numpy.concatenate.html). ([link para script de exemplo](scripts/a18.py))
 
